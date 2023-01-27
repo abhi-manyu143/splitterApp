@@ -1,6 +1,6 @@
+<p>Install xampp and paste the project folder in xampp/htdocs </P>
 <p>For installing this project configure the .env file with your database name ane password </P>
 <p>Create a database with name and password in mysql</p>
-<p>Install xampp and paste the project folder in xampp/htdocs </P>
 <p> Run Command Composer update for update the vendor file </p>
 <p>open your code in vscode and run php artisan migrate - to migate the tables to the databse</P>
 <p>Then run the project with command php artisan serve</P>
