@@ -1,8 +1,8 @@
-<!-- For installing this project configure the .env file with your database name ane password -->
-<!-- Install xampp and paste the project folder in xampp/htdocs  -->
-<!-- open your code in vscode and run php artisan migrate - to migate the tables to the databse -->
-<!-- Then run the project with command php artisan serve -->
-<!-- There will be an option to regiter and login to the deshboard -->
+<p>For installing this project configure the .env file with your database name ane password </P>
+<p>Install xampp and paste the project folder in xampp/htdocs </P>
+<p>open your code in vscode and run php artisan migrate - to migate the tables to the databse</P>
+<p>Then run the project with command php artisan serve</P>
+<p>There will be an option to regiter and login to the deshboard</P>
 
 
 
