@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\friends;
 use App\Models\Group;
+use DB;
 
 class FriendsController extends Controller
 {
@@ -16,7 +17,8 @@ class FriendsController extends Controller
 
     public function friendsControl($id)
     {
-        $data = friends::where('group_id', $id)->get();
+        // $data[] = friends::where('group_id', $id)->get();
+        $data = DB::table('friends')->where('group_id', $id)->get();
         // echo "<pre>";
         // print_r($data);
         // die();

@@ -34,4 +34,7 @@ Route::middleware('auth')->group(function () {
     // Route::get('friendform', [\App\Http\Controllers\FriendsController::class, 'friendsAdd'])->name('friendsform');
     Route::post('savefriend/{id}', [\App\Http\Controllers\FriendsController::class, 'friendsave'])->name('savefriend');
 
+    Route::get('expence/{id}', [\App\Http\Controllers\ExpenceController::class, 'ExpenceView']);
+    Route::post('saveexpence/{id}', [\App\Http\Controllers\ExpenceController::class, 'ExpenceSave'])->name('saveexpence');
+    Route::get('splitterlist/{id}/{tt}', [\App\Http\Controllers\ExpenceController::class, 'ExpenceSplitter'])->name('splitterlist');
 });
