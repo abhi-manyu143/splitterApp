@@ -39,7 +39,7 @@
     <div class="container-fluid">
         <div class="card">
             <h4 class="title">Add Expence</h4>
-            <form action="{{ url('saveexpence')}}" method="post">
+            <form action="{{ url('saveexpence/'.$id)}}" method="post">
                 @csrf
                 <div class="form-group">
                     <label for="title">Title</label>

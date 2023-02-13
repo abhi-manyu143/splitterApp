@@ -39,7 +39,7 @@ class ExpenceController extends Controller
 
         if($savedata)
         {
-            return view('expence_list');
+            return view('expence_list', compact('id'));
         }
 
     }
